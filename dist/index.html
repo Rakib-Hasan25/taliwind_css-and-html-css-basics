@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body class="bg-slate-900 grid place-content-center h-screen">
+
+
+    <!-- bg-slate-900 (for give background color) -->
+    <!-- grid place-content-center (make item in horizontally and vertically centered) -->
+    <!-- h-screen (take the whole horizontal space of the screen) -->
+
+    <h1 class="text-white text-4xl m-2">Rakib</h1>
+    <!-- m-2 (margin (from outside)) -->
+
+
+
+
+
+
+<!-- design:1 -->
+
+
+
+
+    <div class="">
+      <div
+        class="p-6 max-w-sm mx-auto bg-white rounded-xl flex items-center space-x-4"
+      >
+        <!-- "p-6 (padding inside its content)" -->
+        <!-- max-w-sm (max width) -->
+        <!-- mx-auto (full margin from right and left side) -->
+        <!-- space-x-4 (gap between items) -->
+
+        <!-- flex class makes the container a flex container.
+justify-center class centers the items horizontally within the flex container.
+items-center class centers the items vertically within the flex container. -->
+
+        <div>
+          <img
+            class="h-20 w-20 rounded-xl"
+            src="https://images.pexels.com/photos/20684678/pexels-photo-20684678/free-photo-of-a-small-white-flower-on-a-branch.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load"
+            alt=""
+          />
+        </div>
+        <div class="text-xl font-medium text-yellow-950">
+          Tailwind css
+          <p class="text-slate-500">By rakib hasan</p>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+    <!-- design : 2 -->
+
+    <div class="bg-slate-50 mt-10 rounded-2xl">
+      <div class="">
+        <img
+          class="w-full object-cover object-center rounded-sm"
+          src="data:image/png;base64,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"
+          alt=""
+        />
+        <div class="text-center text-blue-500">
+          Tailwind css
+          <p class="font-bold text-gray-800">Rakib Hasan</p>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+<!-- design : 3 (hover effect) -->
+
+
+    <button
+      class="bg-sky-500 mt-5 text-white text-base p-2 rounded-xl dark:bg-red-400 hover:bg-white hover:text-black"
+    >
+      buy now
+    </button>
+
+
+
+
+
+
+
+    <!-- design : 4 (responsiveness) -->
+
+    <!-- responsiveness design  -->
+    <!-- it follow mobile first approach , it means every design first implemented for mobile -->
+    <button
+      class="bg-sky-500 mt-5 text-white md:text-green-500 sm:text-red-600"
+    >
+      <!-- sm:(implemented for less medium screen) -->
+      <!-- md:implemented for medium screen -->
+
+      hi
+    </button>
+
+
+
+
+
+
+    
+
+    <!-- design 5: (responsiveness card) -->
+
+    <div class="mt-5">
+      <div
+        class="bg-white max-w-sm mx-auto rounded-xl md:max-w-2xl overflow-hidden"
+      >
+        <!-- overflow-hidden (if it any item overflow that will be hidden) -->
+
+        <div class="md:flex">
+          <div class="">
+            <img
+              class="h-48 w-full object-cover md:h-full md:w-48"
+              src="https://images.pexels.com/photos/1073785/pexels-photo-1073785.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load"
+              alt=""
+            />
+          </div>
+
+          <div class="p-3 text-center md:pt-5">
+            <div class="uppercase tracking-wide text-blue-600">
+              <!-- tracking-wide (make space in text) -->
+              An awesome card
+            </div>
+
+            <a
+              class="block mt-1 text-lg font-medium hover:text-blue-500"
+              href="#"
+            >
+              Tailwind css is <span class="bg-yellow-400 p-[2px] px-[10px]">amazing</span> 
+              <!-- p-[2px] (padding in pixels) -->
+
+            </a>
+            <p>Lorem ipsum dolor sit.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
